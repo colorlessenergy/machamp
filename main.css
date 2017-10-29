@@ -1,0 +1,58 @@
+html, body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto Slab', serif;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+section {
+  max-width: 800px;
+  width: 100%;
+}
+
+.card-bg {
+  align-items: center;
+  background-image: url('machamp.gif');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+                    url('machamp.gif');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 65vh;
+}
+
+.info {
+  background-color: #5f9ea0;
+  padding: 30px;
+}
+
+.info h2 {
+  letter-spacing: 0.5px;
+  line-height: 1;
+}
+
+.info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info ul li {
+  color: #353434;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
